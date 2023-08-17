@@ -1,0 +1,30 @@
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+section{
+    padding: 90px 0;
+    text-align: center;
+}
+fieldset{
+    width: 85%;
+    margin: auto;
+    border: 2px solid darkgrey;
+    border-radius: 25px;
+}
+form{
+    text-align: center;
+    padding: 80px 0;
+}
+input{
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 8px 10px;
+    border-radius: 12px;
+}
+button{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
