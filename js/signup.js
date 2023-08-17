@@ -1,3 +1,8 @@
+import nav from "../components/nav.js";
+
+document.getElementById("nav").innerHTML=nav()
+
+
 const userdata = (e) => {
     e.preventDefault();
 

@@ -1,3 +1,8 @@
+import nav from "../components/nav.js";
+
+document.getElementById("nav").innerHTML=nav()
+
+
 const login=(e)=>{
     e.preventDefault();
 

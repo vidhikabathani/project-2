@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px;
+    background-color: rgb(154, 154, 154);
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-style: oblique;
+    font-family: sans-serif;
+    color: black;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
