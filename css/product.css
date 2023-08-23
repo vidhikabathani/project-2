@@ -1,0 +1,32 @@
+#box2{
+    width: 85%;
+    height: 100vh;
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#box2 div{
+    padding: 10px;
+    width: 300px;
+}
+#box2 img{
+    width: 200px;
+    height: 200px;
+}
+#box1{
+    width: 15%;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.294);
+    border: 1px solid gray;
+}
+#box1 button{
+    display: block;
+    padding: 8px 10px;
+    margin: 15px 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#main-box{
+    display: flex;
+    justify-content: space-between;
+}

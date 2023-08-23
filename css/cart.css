@@ -1,0 +1,20 @@
+#cart-p img{
+    width: 150px;
+}
+#cart-p{
+    display: grid;
+    grid-template-columns: repeat(3,fr);
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#btn{
+    margin-right: 50px;
+    padding: 10px;
+}
+#btn button{
+    padding: 8px 12px;
+    border-radius: 5px;
+}
