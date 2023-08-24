@@ -9,6 +9,10 @@
     padding: 10px;
     width: 300px;
 }
+button{
+    padding: 8px 12px;
+    border-radius: 5px;
+}
 #box2 img{
     width: 200px;
     height: 200px;
